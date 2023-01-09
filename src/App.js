@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About';
 import Mentoria from './components/Mentoria'
 import Aprende from './components/Aprende'
+import Footer from './components/Footer';
 import './App.css';
 import 'animate.css';
 
@@ -16,6 +17,7 @@ function App() {
       <Mentoria/>
       <Aprende/>
       <About/>
+      <Footer/>
     </div>
   );
 }

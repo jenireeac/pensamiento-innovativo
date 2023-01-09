@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02efe41e.css",
+    "main.js": "/static/js/main.12677571.js",
+    "static/js/787.8d536be5.chunk.js": "/static/js/787.8d536be5.chunk.js",
+    "static/media/logo.png": "/static/media/logo.4992ccf060f13cf43b3f.png",
+    "static/media/mente.jpg": "/static/media/mente.248c54de4b82dab039c4.jpg",
+    "index.html": "/index.html",
+    "main.02efe41e.css.map": "/static/css/main.02efe41e.css.map",
+    "main.12677571.js.map": "/static/js/main.12677571.js.map",
+    "787.8d536be5.chunk.js.map": "/static/js/787.8d536be5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02efe41e.css",
+    "static/js/main.12677571.js"
+  ]
+}

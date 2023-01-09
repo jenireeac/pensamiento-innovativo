@@ -6,15 +6,16 @@ import About from './components/About';
 import Mentoria from './components/Mentoria'
 import Aprende from './components/Aprende'
 import './App.css';
+import 'animate.css';
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
       <Home/>
-      <About/>
       <Mentoria/>
       <Aprende/>
+      <About/>
     </div>
   );
 }

@@ -32,9 +32,9 @@ const Home = () => {
         </Col>
         <Col className="">
           <img src={Logo} alt="Logo" width={350} />
-          {/* <p className="third-text">
+           <p className="third-text">
             Espacio de experiencias de aprendizaje e investigación
-          </p> */}
+          </p> 
         </Col>
       </Row>
       <Row className="m-5 text-center second-home ">

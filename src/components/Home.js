@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo2.png";
 import Mente from "../assets/images/mente.jpg"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -35,6 +35,7 @@ const Home = () => {
            <p className="third-text">
             Espacio de experiencias de aprendizaje e investigación
           </p> 
+          <p>Innovación y transformación</p>
         </Col>
       </Row>
       <Row className="m-5 text-center second-home ">

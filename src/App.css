@@ -7,7 +7,7 @@
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
-  --home-text: #5585b5;
+  /* --home-text: #5585b5; */
 }
 
 .first-text,
@@ -20,6 +20,8 @@
 .first-text,
 .second-text {
   color: var(--home-text);
+  font-family: 'Alegreya Sans', sans-serif;
+
 }
 
 .home-first {
@@ -30,6 +32,15 @@
 .second-home {
   background: var(--background-color);
   font-size: 18px;
+  
+}
+
+.about-card{
+  background-color: #fafafa;
+}
+.image-about{
+  box-shadow:5px 2px 5px rgba(0,0,0,0.3) ;
+  border-radius: 10px;
 }
 .mentoria-text {
   font-size: 18px;

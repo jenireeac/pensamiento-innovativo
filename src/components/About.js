@@ -2,12 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import Photo from "../assets/images/janisse.png"
 const About = () => {
   return (
     <>
       <Container>
-        <Row className="m-5 text-center fs-5  ">
+        <Row className="m-5 p-5 text-center fs-5 about-card ">
           <Col>
             <div>
               <p>
@@ -29,7 +29,9 @@ const About = () => {
             
             </div>
           </Col>
-          <Col></Col>
+          <Col>
+          <img className="image-about" src={Photo} alt="Logo" width={500} />
+          </Col>
         </Row>
       </Container>
     </>

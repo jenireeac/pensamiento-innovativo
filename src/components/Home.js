@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/logo2.png";
+import Logo from "../assets/images/logo.png";
 import Mente from "../assets/images/mente.jpg"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

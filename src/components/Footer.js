@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const Footer = () => {
   return (
-    <Container className="p-5">
+    <Container fluid className="p-5">
       <Row>
         <Col>
           <p><em>¿Conoces la fábula de la vaca?</em></p>

@@ -3,13 +3,15 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+
 const About = () => {
   return (
     <>
-      <Container>
+      <Container fluid >
         <Row className="m-5 text-center fs-5  ">
           <Col>
             <div>
+          
               <p>
                 Formadora de docentes e investigadores, con experiencia laboral
                 de más de 40 años. Profesora Emérita de la Universidad Nacional

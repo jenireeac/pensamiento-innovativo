@@ -24,7 +24,7 @@ const Mentoria = () => {
         </p>
       </div>
       <p className="fs-5 m-5">Te apoyamos en las siguientes áreas:</p>
-      <Container>
+      <Container sfluid >
         <Row className="text-center card-mentoria  ">
           <Col className="border border-secondary rounded m-5">Formación</Col>
           <Col className="border border-secondary rounded  m-5">

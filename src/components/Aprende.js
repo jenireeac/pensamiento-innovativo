@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 const Aprende = () => {
     return(
         <div id="aprende" className="m-5 p-5">
-  <Container>
+  <Container fluid >
         <Row className="text-center card-aprende  ">
           <Col className="border border-secondary rounded m-5">Cumunidad de docentes</Col>
           <Col className="fs-2">

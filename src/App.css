@@ -24,9 +24,14 @@
   font-family: var(--sub-heading-font);
 }
 
+.first-heading{
+  margin-top: 2em;
+}
+
 .home-first-text {
-  font-size: 25px;
+  font-size: 24px;
   text-align: center;
+ 
 }
 
 .home-second-text {
@@ -64,6 +69,7 @@
   .home-second-text {
     margin-top: 20px;
     text-align: center;
+    padding: 3em;
   
   }
   .image-photo {
@@ -73,7 +79,7 @@
     margin-right: auto;
   }
   .image-logo{
-    width: 400px;
+    width: 600px;
   }
   .card-t {
     margin: 100px;
@@ -100,9 +106,10 @@
 }
 @media screen and (max-width: 450px) {
   .image-photo,.image-logo {
-    width: 300px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
 }

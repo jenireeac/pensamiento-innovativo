@@ -18,34 +18,29 @@
 
 .first-heading {
   font-family: var(--heading-font);
+  margin-top: 2em;
+ 
 }
 
 .second-heading {
   font-family: var(--sub-heading-font);
 }
 
-.first-heading{
-  margin-top: 2em;
-}
 
-.home-first-text {
-  font-size: 24px;
-  text-align: center;
- 
-}
 
+.home-first-text,
 .home-second-text {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-  
 }
 
-.home-card {
+.home-card{
+  margin-top: 5em;
+}
+.card-t{
   background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 5em;
 }
-
 .about-card {
   background-color: #fafafa;
 }
@@ -67,10 +62,8 @@
 @media screen and (min-width: 992px) {
   .home-first-text,
   .home-second-text {
-    margin-top: 20px;
+    margin-top: 8em;
     text-align: center;
-    padding: 3em;
-  
   }
   .image-photo {
     width: 600px;
@@ -78,38 +71,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .image-logo{
+  .image-logo {
     width: 600px;
-  }
-  .card-t {
-    margin: 100px;
-    padding: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 992px) {
-  .image-photo,.image-logo {
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .first-heading {
-    font-size: 24px;
-  }
-  .second-heading {
-    font-size: 20px;
-  }
-  .home-first-text,
-  .home-second-text {
-    font-size: 17px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .image-photo,.image-logo {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
 }

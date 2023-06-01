@@ -13,12 +13,12 @@ const Home = () => {
       <h2 className="text-center second-heading">
         Innovación y transformación
       </h2>
-      <Container fluid>
-  <Row className="card-t">
-    <Col>
-      <img className="image-logo" src={Logo} alt="Logo" width={300} />
+      <Container fluid className="home-card">
+  <Row >
+    <Col md={6}>
+      <img className="image-logo img-fluid" src={Logo} alt="Pensamiento Innovativo logo" width={500} />
     </Col>
-    <Col  className="home-first-text">
+    <Col md={6} className="home-first-text">
       <p>
         El aprendizaje, como la vida, es cíclico, una espiral ascendente de
         cambios cualitativos.
@@ -34,7 +34,7 @@ const Home = () => {
     </Col>
   </Row>
 </Container>
-      <Container fluid className="home-card">
+      <Container fluid md={6} className=" bg-opacity-25 ">
         <Row className="card-t">
           <Col className="home-second-text ">
             <h3>Aprender e investigar son procesos.</h3>
@@ -55,8 +55,8 @@ const Home = () => {
               Te ofrezco mi ayuda.
             </p>
           </Col>
-          <Col>
-            <img className="image-photo" src={Photo} alt="Logo" width={450} />
+          <Col md={6}>
+            <img className="image-photo img-fluid" src={Photo} alt="Foto del autor" width={400} />
           </Col>
         </Row>
       </Container>

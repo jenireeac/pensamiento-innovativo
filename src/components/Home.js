@@ -2,13 +2,13 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Photo from "../assets/images/janisse.png";
+import Photo from "../assets/images/homephoto.png";
 import Logo from "../assets/images/logo.png";
 const Home = () => {
   return (
     <>
       <h1 className="p-3 text-center first-heading">
-        Espacio de experiencias de aprendizaje e investigación.
+        Espacio de experiencias de aprendizaje e investigación
       </h1>
       <h2 className="text-center second-heading">
         Innovación y transformación
@@ -22,8 +22,7 @@ const Home = () => {
       <p>
         El aprendizaje, como la vida, es cíclico, una espiral ascendente de
         cambios cualitativos.
-      </p>
-      <p>
+    <br/>
         Se requiere un pensamiento abierto que nos permita adaptarnos y
         evolucionar, deconstruirnos y volver a construirnos
       </p>
@@ -56,7 +55,7 @@ const Home = () => {
             </p>
           </Col>
           <Col md={6}>
-            <img className="image-photo img-fluid" src={Photo} alt="Foto del autor" width={400} />
+            <img className="image-photo img-fluid" src={Photo} alt="Foto del autor" width={700} />
           </Col>
         </Row>
       </Container>

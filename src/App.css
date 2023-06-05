@@ -19,27 +19,23 @@
 .first-heading {
   font-family: var(--heading-font);
   margin-top: 2em;
- 
+  font-size: 40px;
 }
 
 .second-heading {
   font-family: var(--sub-heading-font);
 }
 
-
-
-.home-first-text,
-.home-second-text {
-  font-size: 25px;
-  text-align: center;
-}
-
-.home-card{
-  margin-top: 5em;
-}
-.card-t{
-  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
-  margin-top: 5em;
+.card-t {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  margin: 1em;
 }
 .about-card {
   background-color: #fafafa;
@@ -62,21 +58,26 @@
 @media screen and (min-width: 992px) {
   .home-first-text,
   .home-second-text {
-    margin-top: 8em;
+    margin-top: 3em;
+    font-size: 25px;
     text-align: center;
+    padding: 2em;
   }
-  .image-photo {
-    width: 600px;
+  .image-photo, .image-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .image-logo {
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+ 
 }
 @media screen and (max-width: 992px) {
+  .first-heading {
+    font-size: 30px;
+  }
+  .home-first-text,
+  .home-second-text {
+    padding: 1em;
+    font-size: 18px;
+    text-align: center;
+  }
 }

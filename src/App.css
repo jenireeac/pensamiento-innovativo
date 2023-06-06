@@ -14,6 +14,9 @@
   );
   --heading-font: "Cormorant Garamond", serif;
   --sub-heading-font: "Gentium Plus", serif;
+  --third-heading-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --text-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .first-heading {
@@ -26,6 +29,10 @@
   font-family: var(--sub-heading-font);
 }
 
+.third-heading {
+  font-family: var(--third-heading-font);
+  margin: 2em;
+}
 .card-t {
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -37,35 +44,75 @@
   );
   margin: 1em;
 }
-.about-card {
-  background-color: #fafafa;
-}
-
-.mentoria-text {
-  font-size: 22px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-}
-
-.card-aprende {
-  font-size: 28px;
-  font-weight: 100;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
 @media screen and (min-width: 992px) {
   .home-first-text,
-  .home-second-text{
-    margin-top: 3em;
+  .home-second-text,
+  .mentoria-text {
     font-size: 25px;
     text-align: center;
-    padding: 2em;
+    font-family: var(--text-font);
+  }
+  .home-first-text,
+  .home-second-text {
+    padding: 4em;
+  }
+  .mentoria-text {
+    margin-bottom: 4em;
   }
   .image-photo,
   .image-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .mentoria-card {
+    margin: 6em;
+    padding: 2em;
+  }
+
+  .flip-card {
+    perspective: 100%; /* Define the perspective for 3D rotation */
+    width: 250px;
+    height: 200px;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    width: 70em;
+  }
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s; /* Apply a smooth transition effect */
+    transform-style: preserve-3d;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(
+      180deg
+    ); /* Rotate the inner element for the flip effect */
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hide the backface of the elements */
+  }
+
+  .flip-card-front {
+    background-color: #ffffff;
+    color: black;
+    font-family: var(--text-font);
+  }
+
+  .flip-card-back {
+    font-size: 18px;
+    background-color: #f0fbf4;
+
+    transform: rotateY(180deg); /* Initially hide the back side */
   }
 }
 @media screen and (max-width: 992px) {

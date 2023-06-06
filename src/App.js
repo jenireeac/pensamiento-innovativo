@@ -2,10 +2,10 @@ import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-// import About from "./components/About";
-// import Mentoria from "./components/Mentoria";
-// import Aprende from "./components/Aprende";
-// import Footer from "./components/Footer";
+import Mentoria from "./components/Mentoria";
+//  import About from "./components/About";
+//  import Aprende from "./components/Aprende";
+//  import Footer from "./components/Footer";
 import "./App.css";
 import "animate.css";
 
@@ -14,10 +14,10 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home />
-      {/* <Mentoria />
-      <Aprende />
+       <Mentoria />
+      {/* <Aprende />
       <About />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }

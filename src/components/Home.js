@@ -7,7 +7,7 @@ import Logo from "../assets/images/logo.png";
 const Home = () => {
   return (
     <>
-      <h1 className="p-3 text-center first-heading">
+      <h1 id="home" className="p-3 text-center first-heading">
         Espacio de experiencias de aprendizaje e investigación
       </h1>
       <h2 className="text-center second-heading">
@@ -55,7 +55,7 @@ const Home = () => {
             </p>
           </Col>
           <Col md={6}>
-            <img className="image-photo img-fluid" src={Photo} alt="Foto del autor" width={700} />
+            <img className="image-photo img-fluid" src={Photo} alt="Foto del autor" width={500} />
           </Col>
         </Row>
       </Container>

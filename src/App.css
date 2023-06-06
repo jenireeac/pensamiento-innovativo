@@ -42,11 +42,9 @@
 }
 
 .mentoria-text {
-  font-size: 18px;
+  font-size: 22px;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-.card-mentoria {
-  font-size: 25px;
+
 }
 
 .card-aprende {
@@ -57,18 +55,18 @@
 
 @media screen and (min-width: 992px) {
   .home-first-text,
-  .home-second-text {
+  .home-second-text{
     margin-top: 3em;
     font-size: 25px;
     text-align: center;
     padding: 2em;
   }
-  .image-photo, .image-logo {
+  .image-photo,
+  .image-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
- 
 }
 @media screen and (max-width: 992px) {
   .first-heading {

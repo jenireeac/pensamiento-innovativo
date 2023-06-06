@@ -6,12 +6,9 @@ import Col from "react-bootstrap/Col";
 const Mentoria = () => {
   return (
     <div>
-      <h5
-        id="mentorias"
-        className="text-center animate__animated animate__slideInDown"
-      >
+      <h2 id="mentoria" className="text-center first-heading">
         Mentoria
-      </h5>
+      </h2>
       <div className="text-center mentoria-text">
         <p>
           Éste es un espacio para ti; donde compartiremos experiencias de
@@ -24,20 +21,16 @@ const Mentoria = () => {
         </p>
       </div>
       <p className="fs-5 m-5">Te apoyamos en las siguientes áreas:</p>
-      <Container sfluid >
-        <Row className="text-center card-mentoria  ">
-          <Col className="border border-secondary rounded m-5">Formación</Col>
-          <Col className="border border-secondary rounded  m-5">
-            Investigaciones
-          </Col>
-          <Col className="border border-secondary rounded  m-5">
-            Diseño de cursos
-          </Col>
+      <Container fluid>
+        <Row>
+          <Col></Col>
+          <Col></Col>
+          <Col></Col>
         </Row>
       </Container>
       <p className="text-center">
-      Si requieres nuestro servicio de mentoría online con sesiones personalizadas, <b>contáctanos.</b>
-
+        Si requieres nuestro servicio de mentoría online con sesiones
+        personalizadas, <b>contáctanos.</b>
       </p>
     </div>
   );

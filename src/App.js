@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Mentoria from "./components/Mentoria";
 import FlipCard from "./components/Flipcard";
-// import Aprende from "./components/Aprende";
+ import Aprende from "./components/Aprende";
 // import About from "./components/About";
 //  import Footer from "./components/Footer";
 import "./App.css";
@@ -42,9 +42,9 @@ Centrado en la formación de investigadores con un cambio de miras; compartir ex
           </div>
         </div>
       </div>
-      {/* <Aprende /> 
-      {/* <About />
-      <Footer />    */}
+     <Aprende /> 
+       {/* <About />
+      <Footer />     */}
     </div>
   );
 }

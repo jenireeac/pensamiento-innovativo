@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pensamiento-innovativo/static/css/main.108432ae.css",
-    "main.js": "/pensamiento-innovativo/static/js/main.f71d3905.js",
+    "main.js": "/pensamiento-innovativo/static/js/main.471ed152.js",
     "static/js/787.4c9b6e0c.chunk.js": "/pensamiento-innovativo/static/js/787.4c9b6e0c.chunk.js",
     "static/media/homephoto.png": "/pensamiento-innovativo/static/media/homephoto.88cb5e613236a0ad6c1b.png",
     "static/media/logo.png": "/pensamiento-innovativo/static/media/logo.1aa0d35ebb7042ba20eb.png",
     "index.html": "/pensamiento-innovativo/index.html",
     "main.108432ae.css.map": "/pensamiento-innovativo/static/css/main.108432ae.css.map",
-    "main.f71d3905.js.map": "/pensamiento-innovativo/static/js/main.f71d3905.js.map",
+    "main.471ed152.js.map": "/pensamiento-innovativo/static/js/main.471ed152.js.map",
     "787.4c9b6e0c.chunk.js.map": "/pensamiento-innovativo/static/js/787.4c9b6e0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108432ae.css",
-    "static/js/main.f71d3905.js"
+    "static/js/main.471ed152.js"
   ]
 }

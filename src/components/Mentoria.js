@@ -14,7 +14,6 @@ const Mentoria = () => {
           <em>¿Cómo?</em> Promoviendo la optimización de tus potencialidades y
           la gestión de tu propio aprendizaje.
         </p>
-      <p>Te apoyamos en las siguientes áreas:</p>
       </div>
       </div>
     </div>

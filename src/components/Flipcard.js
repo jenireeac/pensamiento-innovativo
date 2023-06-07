@@ -1,31 +1,28 @@
-import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React, { useState } from 'react';
 
 const FlipCard = ({ frontText, backText }) => {
-  const [isFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
 
   return (
-    <>
-      <Container fluid>
-        <Row>
-          <div className={`flip-card ${isFlipped ? "flipped" : ""}`}>
-            <div className="flip-card-inner">
-              <Col className="flip-card-front">
-                {" "}
-                {/* Content for the front side of the card */}
-                <h2>{frontText}</h2>
-              </Col>
-              <Col className="flip-card-back">
-                {/* Content for the back side of the card */}
-                <p>{backText}</p>
-              </Col>
-            </div>
-          </div>
-        </Row>
-      </Container>
-    </>
+    <div
+      className={`card flip-card ${isFlipped ? 'flipped' : ''}`}
+      onClick={handleFlip}
+    >
+      <div className="card-body flip-card-inner">
+        <div className="flip-card-front">
+          {/* Content for the front side of the card */}
+          <h3 className="card-title">{frontText}</h3>
+        </div>
+        <div className="flip-card-back">
+          {/* Content for the back side of the card */}
+          <p className="card-title">{backText}</p>
+        </div>
+      </div>
+    </div>
   );
 };
 

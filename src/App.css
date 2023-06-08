@@ -54,13 +54,11 @@
     font-size: 25px;
     text-align: center;
     font-family: var(--text-font);
+    font-style: initial;
   }
   .home-first-text,
   .home-second-text {
     padding: 4em;
-  }
-  .mentoria-text {
-    margin-bottom: 4em;
   }
   .image-photo,
   .image-logo {
@@ -68,23 +66,27 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .mentoria-card {
-    margin: 7em;
-    padding: 3em;
+  padding: 1em;
+  margin: 8em;
   }
 
+.card-body{
+  margin: -5em;
+}
   .flip-card {
     perspective: 60em; /* Define the perspective for 3D rotation */
-    border-color: aqua;
-width: 23em;
-    height: 18em;
+    border-color:blueviolet;
+    width: 25em;
+    min-height: 18em;
   }
 
   .flip-card:hover .flip-card-inner {
     transform: rotateX(-180deg);
   }
-  .flip-card:focus {
-    transform: rotateX(-180deg);
+  &:active {
+    transform: scale(0.975);
   }
   .flip-card-inner {
     transition: transform 0.6s; /* Apply a smooth transition effect */
@@ -92,7 +94,7 @@ width: 23em;
   }
 
   .flip-card.flipped .flip-card-inner {
-    transform: rotateY(
+    transform: rotateX(
       180deg
     ); /* Rotate the inner element for the flip effect */
   }
@@ -110,11 +112,16 @@ width: 23em;
     transform: rotateX(180deg); /* Initially hide the back side */
   }
   .card-title {
-    font-size: 18px;
+    margin-top: 2em;
     color: black;
     font-family: var(--text-font);
     text-align: center;
-    margin-top: 6em;
+    display: block;
+  }
+  .card-text {
+    font-size: 15px;
+    text-align: center;
+    display: block;
   }
 }
 @media screen and (max-width: 992px) {

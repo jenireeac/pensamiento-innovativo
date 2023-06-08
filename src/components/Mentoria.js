@@ -2,9 +2,9 @@ import React from "react";
 
 const Mentoria = () => {
   return (
-    <div id="mentoria">
-      <div className="mentoria-card">
-      <div className=" text-center mentoria-text">
+    <div id="mentoria" className="mentoria-card">
+      <div>
+      <div className="  mentoria-text">
         <p>
           Éste es un espacio para ti; donde compartiremos experiencias de
           aprendizaje e investigación desde diferentes perspectivas, para

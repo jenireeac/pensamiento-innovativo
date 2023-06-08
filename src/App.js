@@ -1,10 +1,11 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Mentoria from "./components/Mentoria";
 import FlipCard from "./components/Flipcard";
- import Aprende from "./components/Aprende";
+// import Aprende from "./components/Aprende";
 // import About from "./components/About";
 //  import Footer from "./components/Footer";
 import "./App.css";
@@ -36,15 +37,15 @@ Centrado en la formación de investigadores con un cambio de miras; compartir ex
           </div>
           <div className="col-md-4">
             <FlipCard
-              frontText="Diseño de cursos"
+              frontText=" Diseño de Cursos" 
               backText="Atención personalizada con el diseño de cursos para público externo, particulares o empresas, según requerimientos del demandante y, la necesidad formativa de los usuarios docentes e investigadores. "
             />
           </div>
         </div>
       </div>
-     <Aprende /> 
-       {/* <About />
-      <Footer />     */}
+      {/* <Aprende /> 
+      {/* <About />
+      <Footer />    */}
     </div>
   );
 }

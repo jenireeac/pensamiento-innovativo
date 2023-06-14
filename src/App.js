@@ -22,6 +22,7 @@ function App() {
           <div className="col-md-4">
             <FlipCard
               frontText="Formación"
+              cardText="Ver mas"
               backText="Un servicio de mentoría que contribuya efectivamente al desarrollo estratégico y a la transformación de la labor docente. 
 Centrado en posibilitar la innovación y la mejora continua de quienes enseñan; haciendo énfasis en la diversidad e inclusión, la colaboración y cooperación, integralidad, personalización de la enseñanza, metacognición y efectividad. 
 "
@@ -30,6 +31,7 @@ Centrado en posibilitar la innovación y la mejora continua de quienes enseñan;
           <div className="col-md-4">
             <FlipCard
               frontText="Investigaciones"
+              cardText="Ver mas"
               backText="Un servicio de mentoría que promueva el desarrollo estratégico del investigador y la transformación de la labor investigativa.
 Centrado en la formación de investigadores con un cambio de miras; compartir experiencias de investigación, con estrategias, acciones y propuestas positivas, innovadoras y éticas.
 "
@@ -38,6 +40,7 @@ Centrado en la formación de investigadores con un cambio de miras; compartir ex
           <div className="col-md-4">
             <FlipCard
               frontText=" Diseño de Cursos" 
+              cardText="Ver mas"
               backText="Atención personalizada con el diseño de cursos para público externo, particulares o empresas, según requerimientos del demandante y, la necesidad formativa de los usuarios docentes e investigadores. "
             />
           </div>

@@ -17,7 +17,7 @@ const FlipCard = ({ frontText, backText , cardText }) => {
         <div className="flip-card-front">
           {/* Content for the front side of the card */}
           <h3 className="card-title">{frontText}</h3>
-          <p className="card-text"> {cardText}</p>
+          <p className="card-p"> {cardText}</p>
         </div>
         <div className="flip-card-back">
           {/* Content for the back side of the card */}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { TfiBookmarkAlt } from "react-icons/tfi";
-const FlipCard = ({ frontText, backText }) => {
+
+const FlipCard = ({ frontText, backText , cardText }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -16,7 +16,8 @@ const FlipCard = ({ frontText, backText }) => {
       <div className=" flip-card-inner">
         <div className="flip-card-front">
           {/* Content for the front side of the card */}
-          <h3 className="card-title"><TfiBookmarkAlt/>{frontText}</h3>
+          <h3 className="card-title">{frontText}</h3>
+          <p className="card-p"> {cardText}</p>
         </div>
         <div className="flip-card-back">
           {/* Content for the back side of the card */}
